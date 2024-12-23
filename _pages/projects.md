@@ -5,7 +5,7 @@ permalink: /projects/
 description: A collection of my academic and industry projects.
 nav: true
 nav_order: 3
-display_categories: [Company Collaborations, Academic Projects]
+display_categories: 
 horizontal: false
 ---
 

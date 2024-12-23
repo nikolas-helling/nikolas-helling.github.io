@@ -1,18 +1,23 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
-category: fun
+title: LIDAR-SLAM for Omnidirectional Robot
+description: LIDAR-SLAM for Omnidirectional Robot
+img: assets/img/use_case_screenshot.png
+importance: 4
+category: # blank in not categorized
+redirect: # external link
+related_publications: true
+published: true
+giscus_comments: false
+
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+My research interests span from human-robot interaction in humanoid robotics, to deep learning techniques for loco-manipulation of legged robots. I am excited to continue exploring these areas throughout my research journey, pushing the boundaries of robot intelligence and enhancing their ability to interact with humans and their environments.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+My research interests span from human-robot interaction in humanoid robotics, to deep learning techniques for loco-manipulation of legged robots. I am excited to continue exploring these areas throughout my research journey, pushing the boundaries of robot intelligence and enhancing their ability to interact with humans and their environments.
 
+Example raw code:
+    
     ---
     layout: page
     title: project
@@ -20,39 +25,42 @@ To give your project a background in the portfolio page, just add the img tag to
     img: /assets/img/12.jpg
     ---
 
+My research interests span from human-robot interaction in humanoid robotics, to deep learning techniques for loco-manipulation of legged robots. I am excited to continue exploring these areas throughout my research journey, pushing the boundaries of robot intelligence and enhancing their ability to interact with humans and their environments.
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/prof_pic.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/prof_pic.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/prof_pic.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    Caption for the all photos goes here.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+My research interests span from human-robot interaction in humanoid robotics, to deep learning techniques for loco-manipulation of legged robots. I am excited to continue exploring these areas throughout my research journey, pushing the boundaries of robot intelligence and enhancing their ability to interact with humans and their environments.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/prof_pic.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Caption for single photos goes here.
+</div>
+
+My research interests span from human-robot interaction in humanoid robotics, to deep learning techniques for loco-manipulation of legged robots. I am excited to continue exploring these areas throughout my research journey, pushing the boundaries of robot intelligence and enhancing their ability to interact with humans and their environments.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/prof_pic.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/prof_pic.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -62,19 +70,64 @@ You describe how you toiled, sweated, _bled_ for your project, and then... you r
 The code is simple.
 Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
 To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
 
-{% raw %}
+This is an example post with videos. It supports local video files.
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="assets/video/pexels-engin-akyurt-6069112-960x540-30fps.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+        <div class="caption">
+            Caption for the first video goes here.
+        </div>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="assets/video/pexels-engin-akyurt-6069112-960x540-30fps.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+        <div class="caption">
+            Caption for the second video goes here.
+        </div>
+    </div>
 </div>
-```
+<div class="caption">
+    Caption for the all videos goes here.
+</div>
 
-{% endraw %}
+My research interests span from human-robot interaction in humanoid robotics, to deep learning techniques for loco-manipulation of legged robots. I am excited to continue exploring these areas throughout my research journey, pushing the boundaries of robot intelligence and enhancing their ability to interact with humans and their environments.
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="assets/video/pexels-engin-akyurt-6069112-960x540-30fps.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+        <div class="caption">
+            Caption for the first video goes here.
+        </div>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="assets/video/pexels-engin-akyurt-6069112-960x540-30fps.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+        <div class="caption">
+            Caption for the second video goes here.
+        </div>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="assets/video/pexels-engin-akyurt-6069112-960x540-30fps.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+        <div class="caption">
+            Caption for the third video goes here.
+        </div>
+    </div>
+</div>
+<div class="caption">
+    Caption for the all videos goes here.
+</div>
+
+It does also support embedding videos from different sources. Here are some examples:
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="https://www.youtube.com/embed/jNQXAC9IVRw" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="https://player.vimeo.com/video/524933864?h=1ac4fd9fb4&title=0&byline=0&portrait=0" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Caption for the all videos goes here.
+</div>
+
