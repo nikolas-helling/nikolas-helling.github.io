@@ -44,6 +44,9 @@
       {% else %}
         height="auto"
       {% endif %}
+      {% if include.centered%}
+        style="display: flex; justify-content: center; align-items: center; margin: auto;"
+      {% endif %}
       {% if include['min-width'] or include['min-height'] or include['max-width'] or include['max-height'] %}
         style="
           {% if include['min-width'] %}

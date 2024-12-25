@@ -17,6 +17,9 @@
       {% else %}
         height="auto"
       {% endif %}
+      {% if include.centered%}
+        style="display: flex; justify-content: center; align-items: center; margin: auto;"
+      {% endif %}
       {% if include['min-width'] %}
         min-width="{{ include.min-width }}"
       {% endif %}

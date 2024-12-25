@@ -2,7 +2,7 @@
 layout: page
 title: Interaction Control for Humanoid Robot
 description: Force control for Oversonic Robotics' humanoid robot RoBee (image courtesy of Oversonic Robotics)
-img: assets/img/robee-robot-certificato-768x1152.png
+img: assets/img/proj2/robee-robot-certificato-768x1152.png
 importance: 2
 category: # blank in not categorized
 redirect: # external link
