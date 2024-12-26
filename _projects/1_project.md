@@ -17,7 +17,7 @@ During my master’s thesis at [MERLIN Lab](https://merlin.deib.polimi.it/), I c
 I developed a “Robust Bayesian Goal Reaching Inference Engine for Intent Prediction in Human-Robot Collaboration”, which was validated using a collaborative dual-arm robot (ABB’s YuMi) and external participants. The model accurately predicts the objects grasped by a human inside a collaborative workspace, combining upper body tracking, limb motion generation, and Bayesian target prediction. The experimental campaign demonstrated significant collaboration improvements, including a 30% reduction in cycle time for shared assembly tasks, more natural and intelligent human-robot interactions, and increased robustness compared to prior works in the literature {% cite paperICRA2023 casalino2018operator Zanchettin2017 %}.
 
 <div class="row align-items-center">
-    <div class="col-md-6">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/proj1/setup.gif" title="Application setup" class="img-fluid rounded z-depth-1" height="70%" width="70%" centered="true" %}
         <div class="caption">
             Working setup of the prediction model.
