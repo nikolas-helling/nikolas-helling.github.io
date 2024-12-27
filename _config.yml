@@ -8,7 +8,7 @@ middle_name:
 last_name: Helling
 contact_note: Please feel free to contact me for any information at <a href="mailto:helling.nikolas@gmail.com">helling.nikolas@gmail.com</a>
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-footer_text: Powered by Jekyll with al-folio theme. Hosted by GitHub Pages. Photos from Unsplash.
+footer_text: Powered by Jekyll with al-folio theme and hosted on GitHub Pages.
 keywords: # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: pers_website_logo.jpg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
