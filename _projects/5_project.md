@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Ackermann Steering PID Control for Mobile Robot
+title: Steering PID Control for Mobile Robot
 description: Control of a 4-wheel Ackermann steering mobile robot in ROS
 img: assets/img/proj5/Ackermann_turning.svg.png
 importance: 5
@@ -12,4 +12,4 @@ giscus_comments: false
 
 ---
 
-Currently working on uploading the project. A working version of the steering control is already available on [GitHub](https://github.com/nikolas-helling/robot_traj_ctrl_ros.git).
+Currently working on uploading the project. Steering control code available [here](https://github.com/nikolas-helling/robot_traj_ctrl_ros.git).

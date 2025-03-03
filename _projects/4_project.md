@@ -12,4 +12,4 @@ giscus_comments: false
 
 ---
 
-Currently working on uploading the project. Codebase soon to be updated on [GitHub](https://github.com/nikolas-helling/omni_robot_SLAM_project.git).
+Currently working on uploading the project. Codebase on [here](https://github.com/nikolas-helling/omni_robot_SLAM_project.git).
